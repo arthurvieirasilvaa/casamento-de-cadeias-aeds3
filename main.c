@@ -9,21 +9,21 @@ int main(int argc, char *argv[]) {
 
     if(argc < 3) {
         printf("Execução incorreta!\n");
-        printf("Digite: ./tp2 <estratégia> entrada.txt\n");
+        printf("Digite: ./tp3 entrada.txt <estratégia>\n");
         exit(1);
     }
 
-    int opt = atoi(argv[1]);
-    char *input = argv[2];
+    int opt = atoi(argv[2]);
+    char *input = argv[1];
 
     // Uso das funções getrusage e gettimeofday para medir o tempo gasto pela aplicação:
+    
     struct rusage usage_inicio, usage_fim;  // Estruturas para a função getrusage.
     struct timeval tempo_inicio, tempo_fim; // Estruturas para a função gettimeofday.
 
-    // Verificando se foi digitado uma opção inválida:
-    if(opt != 1 && opt != 2) {
+    if(opt != 1 && opt != 2 && opt != 3) {
         printf("Opção inválida!\n");
-        printf("Digite estratégia 1 ou 2.\n");
+        printf("Digite estratégia 1, 2 ou 3.\n");
         exit(1);
     }
 

@@ -1,13 +1,13 @@
-void AlocaGrid(int***, int*, int*);
+char *TextoInvertido(char*);
 
-void Seleciona(int**, int**, int*, int*, int**, int**);
+int ForcaBruta(char*, char*);
 
-int Estrategia1(int**, int*, int*);
+void PreProcessamento(int*, int, int, char*, char*);
 
-void LiberaGrid(int**, int*);
+int BMH(char*, char*);
 
-int Estrategia2(int**, int*, int*);
+int ShiftAnd(char*, char*);
 
-void SalvarOutput(int*, int*);
+void SalvarOutput(char*, int*, int);
 
 void LerArquivo(char*, int);
