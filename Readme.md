@@ -23,6 +23,10 @@ Além disso, será realizada a comparação desses algoritmos em termos de tempo
 - **Boyer-Moore-Horspool**
 - **Shift-And**
 
+## 📝​ Descrição do Projeto
+
+[Ver descrição](./descricao.pdf)
+
 ## 📚 Documentação do Projeto
 
 [Ver documentação](./documentação.pdf)
