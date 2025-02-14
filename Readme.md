@@ -50,13 +50,3 @@ make clean
 ````
 
 ⚠️ ***Obs***: entrada.txt é o nome do arquivo de teste que será lido e estratégia é 1 para o Algoritmo Força Bruta, 2 para o Boyer-Moore-Horspool ou 3 para o Shift-And.
-
-Instruções para compilação e execução:
-
-make => Compilar os arquivos;
-
-make clean => Limpar compilação;
-
-./tp3 entrada.txt <estrategia> => execução;
-
-Obs: <estrategia> é 1 para o Algoritmo Força Bruta, 2 para o Boyer-Moore-Horspool ou 3 para o Shift-And.
