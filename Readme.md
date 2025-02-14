@@ -1,10 +1,10 @@
 # Trabalho Prático 3 - Algoritmos e Estruturas de Dados III
 
-**Disciplina**: Algoritmos e Estruturas de Dados III
-**Curso**: Ciência da Computação
-**Instituição**: Universidade Federal de São João Del Rei
-**Docente**: Leonardo Chaves Dutra da Rocha
-**Data**: 20 de Junho de 2023
+- **Disciplina**: Algoritmos e Estruturas de Dados III
+- **Curso**: Ciência da Computação
+- **Instituição**: Universidade Federal de São João Del Rei
+- **Docente**: Leonardo Chaves Dutra da Rocha
+- **Data**: 20 de Junho de 2023
 
 ## 📖 Objetivo:
 
@@ -32,8 +32,6 @@ Além disso, será realizada a comparação desses algoritmos em termos de tempo
 [Ver documentação](./documentação.pdf)
 
 ## ✏️ Instruções
-
-A seguir, há instruções para compilação e execução do projeto.
 
 ### ⚒️ Compilação
 
